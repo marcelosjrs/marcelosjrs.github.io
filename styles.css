@@ -1,0 +1,239 @@
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #20290773;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poetsen One', sans-serif;
+    position: fixed; /* Fixa a barra de navegação */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #dddddd42;
+    color: black;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: #f2f2f2;
+    font-family: 'Poetsen One', sans-serif;
+    text-align: center; /* Centraliza o texto */
+    font-size: 4em; /* Tamanho do texto (ajuste conforme necessário) */
+    margin-top: 100px; /* Espaço acima do título */
+}
+
+.titulo-index {
+    font-size: 5em; /* Tamanho maior para a página inicial */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed; /* Fixa o background */
+}
+
+.caixa-de-texto {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffffe1; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    text-align: center; /* Centralizar o texto */
+    margin: 50px auto; /* Margem para centralizar verticalmente */
+    max-width: 1400px; /* Largura máxima da caixa de texto */
+}
+
+.caixa-de-texto h2 {
+    font-size: 24px; /* Tamanho do título */
+    color: #333333; /* Cor do título */
+}
+
+.caixa-de-texto p {
+    font-size: 18   px; /* Tamanho do texto */
+    color: #555555; /* Cor do texto */
+}
+
+footer {
+    background-color: #20290773; /* Cor de fundo */
+    text-align: center; /* Centraliza o conteúdo */
+    font-family: 'Roboto', sans-serif; /* Fonte */
+    color: #f2f2f2; /* Cor do texto */
+    position: fixed; /* Fixa o footer na parte inferior da tela */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Largura total */
+}
+
+.showcase {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    border-radius: 10px; /* Borda arredondada */
+    overflow: hidden; /* Esconde conteúdo que extrapola a caixa */
+    margin-bottom: 20px; /* Espaçamento entre as caixas */
+    margin-left: 50px; /* Margem à esquerda */
+    margin-right: 50px; /* Margem à direita */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.showcase img {
+    width: 200px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border-top-left-radius: 10px; /* Borda arredondada apenas no canto superior esquerdo */
+    border-bottom-left-radius: 10px; /* Borda arredondada apenas no canto inferior esquerdo */
+}
+
+.showcase-text {
+    font-family: 'Roboto', sans-serif; /* Fonte do texto */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #ffffffe1; /* Cor de fundo */
+    flex: 1; /* Ocupa o restante do espaço disponível */
+    border-top-right-radius: 10px; /* Borda arredondada apenas no canto superior direito */
+    border-bottom-right-radius: 10px; /* Borda arredondada apenas no canto inferior direito */
+}
+
+.showcase-text h2 {
+    margin-top: 0; /* Remove o espaçamento superior do título */
+    font-size: 1.5em; /* Tamanho do título */
+}
+
+.showcase-text p {
+    margin-bottom: 0; /* Remove o espaçamento inferior do texto */
+    font-size: 16px; /* Tamanho do texto */
+    color: #555555; /* Cor do texto */
+}
+
+.showcase-box {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    border-radius: 10px; /* Borda arredondada */
+    overflow: hidden; /* Esconde conteúdo que extrapola a caixa */
+    margin-bottom: 20px; /* Espaçamento entre as caixas */
+    margin-left: 50px; /* Margem à esquerda */
+    margin-right: 50px; /* Margem à direita */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.titulo-dicas {
+    text-align: center;
+}
+
+.contatos {
+    font-family: 'Poetsen One', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f2f2f2;
+
+}
+
+.contato img {
+    width: 50px;
+    height: 50px;
+}
+
+.contato p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
