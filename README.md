@@ -1,4 +1,4 @@
-# Trabalho de Experiência e Interface com Usuário
+# Trabalho de Programação Web Front-end
 
 Este projeto foi desenvolvido como parte da disciplina de Programação Web Front-end. O objetivo do trabalho era criar um site simples utilizando HTML e CSS para demonstrar conceitos de design de interface.
 
