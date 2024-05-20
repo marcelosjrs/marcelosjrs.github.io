@@ -1,6 +1,6 @@
 # Trabalho de Experiência e Interface com Usuário
 
-Este projeto foi desenvolvido como parte da disciplina de Experiência e Interface com Usuário. O objetivo do trabalho era criar um site simples utilizando HTML e CSS para demonstrar conceitos de design de interface.
+Este projeto foi desenvolvido como parte da disciplina de Programação Web Front-end. O objetivo do trabalho era criar um site simples utilizando HTML e CSS para demonstrar conceitos de design de interface.
 
 ## Acesso ao Site
 
